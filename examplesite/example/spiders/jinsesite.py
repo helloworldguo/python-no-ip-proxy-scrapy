@@ -2,10 +2,10 @@
 import scrapy
 
 
-class JinsesiteSpider(scrapy.Spider):
-    name = 'jinsesite'
-    allowed_domains = ['jinse.com']
-    start_urls = ['http://jinse.com/']
+class ExamplesiteSpider(scrapy.Spider):
+    name = 'examplesite'
+    allowed_domains = ['example.com']
+    start_urls = ['http://example.com/']
 
     def parse(self, response):
         # 链接到详情页面
